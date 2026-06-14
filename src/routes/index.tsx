@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import profileAsset from "@/assets/profile.jpg.asset.json";
+import videoAsset from "@/assets/video-intro.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
