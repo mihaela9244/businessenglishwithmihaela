@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "One-to-one Business English tutoring for professionals. Workplace communication, interviews, emails and meetings — tailored to your career goals." },
       { name: "author", content: "Mihaela Harieva Shishmanova" },
       { property: "og:title", content: "English with Mihaela — Business English Tutoring" },
-      { property: "og:description", content: "One-to-one Business English tutoring for professionals — tailored to your career goals." },
+      { property: "og:description", content: "One-to-one Business English tutoring for professionals. Workplace communication, interviews, emails and meetings — tailored to your career goals." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "English with Mihaela — Business English Tutoring" },
+      { name: "twitter:description", content: "One-to-one Business English tutoring for professionals. Workplace communication, interviews, emails and meetings — tailored to your career goals." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/64bc6482-5270-48e4-a9f4-c35089398703/id-preview-c3ae8d8d--4eb7ba46-2a9e-413e-9c3c-bb25d589eed9.lovable.app-1781457445794.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/64bc6482-5270-48e4-a9f4-c35089398703/id-preview-c3ae8d8d--4eb7ba46-2a9e-413e-9c3c-bb25d589eed9.lovable.app-1781457445794.png" },
     ],
     links: [
       {
