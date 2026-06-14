@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import profileAsset from "@/assets/profile.jpg.asset.json";
+import videoAsset from "@/assets/video-intro.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -62,15 +63,18 @@ function Index() {
             </dl>
           </div>
           <div className="md:col-span-5 relative">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted">
-              <img
-                src={profileAsset.url}
-                alt="Mihaela Harieva — Business English tutor"
-                className="w-full h-full object-cover object-top"
-                width={1080}
-                height={1440}
+            <div className="relative aspect-video overflow-hidden rounded-sm shadow-2xl bg-muted">
+              <video
+                src={videoAsset.url}
+                poster={profileAsset.url}
+                className="w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
               />
-              <div className="absolute inset-0 ring-1 ring-foreground/10" />
+              <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-background border border-border/60 px-5 py-4 rounded-sm shadow-lg max-w-xs">
               <p className="eyebrow text-accent">Tutor</p>
