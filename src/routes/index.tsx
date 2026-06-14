@@ -62,17 +62,24 @@ function Index() {
               </div>
             </dl>
           </div>
-          <div className="md:col-span-6 relative">
-            <div className="relative aspect-video overflow-hidden rounded-sm shadow-2xl bg-muted">
+          <div className="md:col-span-6 relative flex flex-col md:flex-row gap-4">
+            <div className="relative flex-[3] aspect-video overflow-hidden rounded-sm shadow-2xl bg-muted">
               <video
                 src={videoAsset.url}
-                poster={profileAsset.url}
                 className="w-full h-full object-cover"
                 autoPlay
                 muted
                 loop
                 playsInline
                 controls
+              />
+              <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
+            </div>
+            <div className="relative flex-[2] aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted">
+              <img
+                src={profileAsset.url}
+                alt="Mihaela Harieva — Business English tutor"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
             </div>
