@@ -63,11 +63,11 @@ function Index() {
             </dl>
           </div>
           <div className="md:col-span-5 relative">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-2xl">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted">
               <img
-                src={heroImage}
-                alt="A leather notebook, fountain pen and porcelain coffee cup on a walnut desk"
-                className="w-full h-full object-cover"
+                src={profileAsset.url}
+                alt="Mihaela Harieva — Business English tutor"
+                className="w-full h-full object-cover object-top"
                 width={1080}
                 height={1440}
               />
