@@ -21,7 +21,7 @@ function Index() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="mx-auto max-w-6xl px-6 md:px-10 pt-12 pb-20 md:pt-20 md:pb-32 grid md:grid-cols-12 gap-10 items-center">
-          <div className="md:col-span-7">
+          <div className="md:col-span-6">
             <p className="eyebrow"><span className="text-accent">●</span> Now accepting students · 2026</p>
             <h1 className="display mt-6 text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem]">
               Business English,<br />
@@ -62,19 +62,29 @@ function Index() {
               </div>
             </dl>
           </div>
-          <div className="md:col-span-5 relative">
-            <div className="relative aspect-video overflow-hidden rounded-sm shadow-2xl bg-muted">
-              <video
-                src={videoAsset.url}
-                poster={profileAsset.url}
-                className="w-full h-full object-cover"
-                autoPlay
-                muted
-                loop
-                playsInline
-                controls
-              />
-              <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
+          <div className="md:col-span-6 relative">
+            <div className="flex flex-col md:flex-row gap-4">
+              <div className="flex-[3] min-w-0 relative aspect-video overflow-hidden rounded-sm shadow-2xl bg-muted">
+                <video
+                  src={videoAsset.url}
+                  poster={profileAsset.url}
+                  className="w-full h-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  controls
+                />
+                <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
+              </div>
+              <div className="flex-[2] min-w-0 relative aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted">
+                <img
+                  src={profileAsset.url}
+                  alt="Mihaela Harieva — Business English tutor"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
+              </div>
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-background border border-border/60 px-5 py-4 rounded-sm shadow-lg max-w-xs">
               <p className="eyebrow text-accent">Tutor</p>
