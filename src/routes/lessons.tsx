@@ -1,4 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import diplomaticPlan from "@/assets/diplomatic-plan.pdf.asset.json";
+import financialPlan from "@/assets/financial-plan.pdf.asset.json";
+import businessEnglishPlan from "@/assets/business-english-plan.pdf.asset.json";
 
 export const Route = createFileRoute("/lessons")({
   head: () => ({
@@ -23,6 +26,7 @@ const samples = [
       "Prosodic transfer — pitch patterns that betray a non-native speaker",
     ],
     audience: "Adults · Professional sector · 4 students · Google Meet",
+    pdf: diplomaticPlan.url,
   },
   {
     n: "02",
@@ -34,6 +38,7 @@ const samples = [
       "Role-play: pitching an asset manager to an institutional investor",
     ],
     audience: "1st-year university · Finance & Accounting cohort",
+    pdf: financialPlan.url,
   },
   {
     n: "03",
@@ -45,6 +50,7 @@ const samples = [
       "Syntactic accuracy + remote-meeting fluency in one session",
     ],
     audience: "Small groups · 60-minute virtual classroom",
+    pdf: businessEnglishPlan.url,
   },
 ];
 
@@ -79,6 +85,14 @@ function LessonsPage() {
                   </li>
                 ))}
               </ul>
+              <a
+                href={s.pdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-6 text-sm font-medium text-accent hover:underline"
+              >
+                Download full lesson plan (PDF) →
+              </a>
             </div>
           </article>
         ))}
