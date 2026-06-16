@@ -162,7 +162,7 @@ function Index() {
         <div className="flex items-end justify-between flex-wrap gap-4 mb-12">
           <div>
             <p className="eyebrow">02 — What we work on</p>
-            <h2 className="display text-4xl md:text-5xl mt-4">Programmes</h2>
+            <h2 className="display text-4xl md:text-5xl mt-4">Example Programmes</h2>
           </div>
           <Link to="/lessons" className="text-sm underline underline-offset-4 hover:text-accent">
             Browse sample lesson plans →
