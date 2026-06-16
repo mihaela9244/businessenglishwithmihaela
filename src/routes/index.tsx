@@ -127,7 +127,7 @@ function Index() {
           </div>
           <div className="md:col-span-8 space-y-10">
             <p className="text-xl leading-relaxed text-foreground/85 max-w-2xl">
-              Every lesson is built around the situations you actually face — the board meeting on Thursday, the cold email to a New York client, the interview at a London bank.
+              Every lesson is built around the situations you actually face and tailored to your needs and interests!
             </p>
             <div className="grid sm:grid-cols-3 gap-px bg-border">
               {[
