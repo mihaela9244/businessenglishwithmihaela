@@ -132,7 +132,7 @@ function Index() {
             <div className="grid sm:grid-cols-3 gap-px bg-border">
               {[
                 { n: "I", t: "Needs analysis", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
-                { n: "II", t: "Rehearse", d: "Live role-play of meetings, negotiations and presentations — with diplomatic phrasing built in." },
+                { n: "II", t: "Teaching plan", d: "Live role-play of meetings, negotiations and presentations — with diplomatic phrasing built in." },
                 { n: "III", t: "Refine", d: "Pronunciation, intonation and written tone polished until they match the room you're walking into." },
               ].map((s) => (
                 <div key={s.n} className="bg-background p-6">
