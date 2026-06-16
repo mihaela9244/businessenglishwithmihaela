@@ -131,7 +131,7 @@ function Index() {
             </p>
             <div className="grid sm:grid-cols-3 gap-px bg-border">
               {[
-                { n: "I", t: "Needs analysis — understanding your goals and challenges", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
+                { n: "I", t: "Needs analysis", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
                 { n: "II", t: "Rehearse", d: "Live role-play of meetings, negotiations and presentations — with diplomatic phrasing built in." },
                 { n: "III", t: "Refine", d: "Pronunciation, intonation and written tone polished until they match the room you're walking into." },
               ].map((s) => (
