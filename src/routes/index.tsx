@@ -120,7 +120,7 @@ function Index() {
       <section className="mx-auto max-w-6xl px-6 md:px-10 py-24 md:py-32">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-4">
-            <p className="eyebrow">01 — The approach</p>
+            <p className="eyebrow"></p>
             <h2 className="display text-4xl md:text-5xl mt-4">
               Methodology
             </h2>
