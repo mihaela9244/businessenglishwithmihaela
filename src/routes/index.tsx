@@ -131,12 +131,11 @@ function Index() {
             </p>
             <div className="grid sm:grid-cols-3 gap-px bg-border">
               {[
-                { n: " ", t: "Needs analysis", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
-                { n: " ", t: "Teaching plan", d: "I will create a plan tailored to your needs and interests, focusing on the specific language skills you want to improve." },
-                { n: " ", t: "Production", d: "You use the language in real scenarios — meetings, emails, presentations — while we refine your pronunciation, tone, delivery and more, so your communication feels confident and natural." },
+                { t: "Needs analysis", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
+                { t: "Teaching plan", d: "I will create a plan tailored to your needs and interests, focusing on the specific language skills you want to improve." },
+                { t: "Production", d: "You use the language in real scenarios — meetings, emails, presentations — while we refine your pronunciation, tone, delivery and more, so your communication feels confident and natural." },
               ].map((s) => (
-                <div key={s.n} className="bg-background p-6">
-                  <p className="font-serif text-accent text-xl">{s.n}</p>
+                <div key={s.t} className="bg-background p-6">
                   <p className="font-serif text-2xl mt-2">{s.t}</p>
                   <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{s.d}</p>
                 </div>
