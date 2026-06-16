@@ -149,7 +149,7 @@ function Index() {
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-6xl px-6 md:px-10 py-24 md:py-32 grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-2 hidden md:block">
-            <p className="font-serif text-7xl text-accent leading-none">“</p>
+            <p className="font-serif text-7xl text-accent leading-none"></p>
           </div>
           <blockquote className="md:col-span-10 font-serif text-3xl md:text-5xl leading-tight">
             Every lesson is tailored around the situations you deal with and personalised to your needs and interests
