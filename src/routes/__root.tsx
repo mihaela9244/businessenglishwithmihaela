@@ -219,7 +219,7 @@ function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-6xl px-6 md:px-10 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} Mihaela Harieva Shishmanova. All rights reserved.</p>
-          <p>Sofia · Varna · Worldwide online</p>
+          <p>Worldwide online</p>
         </div>
       </div>
     </footer>
