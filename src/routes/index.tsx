@@ -52,8 +52,14 @@ function Index() {
               </div>
               <div>
                 <dt className="eyebrow">Focus</dt>
-                <dd className="font-serif text-3xl mt-1">C1<span className="text-muted-foreground">–</span>C2</dd>
-                <p className="text-xs text-muted-foreground mt-1">Executive level</p>
+                <dd className="font-serif text-3xl mt-1 leading-tight">
+                  C1<span className="text-muted-foreground">–</span>C2<br />
+                  <span className="text-2xl">B1-B2</span>
+                </dd>
+                <p className="text-xs text-muted-foreground mt-1 whitespace-pre-line">
+                  Executive level{"\n"}
+                  Intermediate-upper intermediate
+                </p>
               </div>
               <div>
                 <dt className="eyebrow">Format</dt>
