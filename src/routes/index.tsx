@@ -57,8 +57,7 @@ function Index() {
                   <span className="text-2xl">B1-B2</span>
                 </dd>
                 <p className="text-xs text-muted-foreground mt-1 whitespace-pre-line">
-                  Executive level{"\n"}
-                  Intermediate-upper intermediate
+                  {"\n"}
                 </p>
               </div>
               <div>
