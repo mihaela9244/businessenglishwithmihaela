@@ -133,7 +133,7 @@ function Index() {
               {[
                 { n: "I", t: "Needs analysis", d: "We map the exact things you want to improve, what feels needed for you to succeed, through a questionnaire." },
                 { n: "II", t: "Teaching plan", d: "I will create a plan tailored to your needs and interests, focusing on the specific language skills you want to improve." },
-                { n: "III", t: "Refine", d: "You use the language in real scenarios — meetings, emails, presentations — while we refine your pronunciation, tone, and delivery so your communication feels confident and natural." },
+                { n: "III", t: "Production", d: "You use the language in real scenarios — meetings, emails, presentations — while we refine your pronunciation, tone, and delivery so your communication feels confident and natural." },
               ].map((s) => (
                 <div key={s.n} className="bg-background p-6">
                   <p className="font-serif text-accent text-xl">{s.n}</p>
