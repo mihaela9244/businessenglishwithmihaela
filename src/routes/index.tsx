@@ -122,8 +122,7 @@ function Index() {
           <div className="md:col-span-4">
             <p className="eyebrow">01 — The approach</p>
             <h2 className="display text-4xl md:text-5xl mt-4">
-              Not grammar drills.<br />
-              <span className="italic text-accent">Real rehearsal.</span>
+              Methodology
             </h2>
           </div>
           <div className="md:col-span-8 space-y-10">
