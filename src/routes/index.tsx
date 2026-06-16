@@ -152,7 +152,7 @@ function Index() {
             <p className="font-serif text-7xl text-accent leading-none">“</p>
           </div>
           <blockquote className="md:col-span-10 font-serif text-3xl md:text-5xl leading-tight">
-            By choosing to enhance your Business English with me, you'll gain practical knowledge tailored to your career goals — enabling you to communicate effectively and <span className="italic text-accent">confidently</span> in professional settings.
+            Every lesson is tailored around the situations you deal with and personalised to your needs and interests
           </blockquote>
         </div>
       </section>
