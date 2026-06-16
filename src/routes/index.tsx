@@ -63,7 +63,7 @@ function Index() {
               </div>
               <div>
                 <dt className="eyebrow">Format</dt>
-                <dd className="font-serif text-3xl mt-1">1:1</dd>
+                <dd className="font-serif text-3xl mt-1">1:1 VIP class</dd>
                 <p className="text-xs text-muted-foreground mt-1">Online · Google Meet</p>
               </div>
             </dl>
