@@ -91,7 +91,7 @@ function Index() {
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-background border border-border/60 px-5 py-4 rounded-sm shadow-lg max-w-xs">
               <p className="eyebrow text-accent">Tutor</p>
-              <p className="font-serif text-2xl mt-1 leading-tight">Mihaela Harieva</p>
+              <p className="font-serif text-2xl mt-1 leading-tight">Mihaela S.</p>
               <p className="text-xs text-muted-foreground mt-1">BSc International Business · TEFL & Business English certified</p>
             </div>
           </div>
