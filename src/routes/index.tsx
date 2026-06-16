@@ -54,7 +54,8 @@ function Index() {
                 <dt className="eyebrow">Focus</dt>
                 <dd className="font-serif text-3xl mt-1 leading-tight">
                   C1<span className="text-muted-foreground">–</span>C2<br />
-                  <span className="text-2xl">B1-B2</span>
+                  <span className="text-2xl">B1-B2</span><br />
+                  <span className="text-xl">A1-A2</span>
                 </dd>
                 <p className="text-xs text-muted-foreground mt-1 whitespace-pre-line">
                   {"\n"}
