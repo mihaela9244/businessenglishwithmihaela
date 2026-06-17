@@ -22,9 +22,9 @@ function Index() {
       <section className="relative overflow-hidden">
         <div className="mx-auto max-w-6xl px-6 md:px-10 pt-12 pb-20 md:pt-20 md:pb-32 grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-6">
-            <a href="https://students.nacid.bg/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-amber-400 text-yellow-950 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest hover:bg-amber-300 transition-colors">
+            <a href="https://students.nacid.bg/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-amber-400 text-yellow-950 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest hover:bg-amber-300 transition-colors" title="Academic № DH17434 · Diploma № 43801ZZ">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              Diploma Certified
+              Diploma Certified · DH17434 / 43801ZZ
             </a>
             <h1 className="display mt-6 text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem]">
               Business English,<br />
