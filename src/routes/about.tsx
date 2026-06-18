@@ -37,7 +37,7 @@ function AboutPage() {
             I am a certified Business English tutor. My whole education from primary to secondary has been in the UK.&nbsp;&nbsp;I hold a BSc in International Business — taught entirely in English from the University of Economics, Varna— and I've worked in corporate environments including asset management.&nbsp;
           </p>
           <p>
-            On top of that, I'm certified with a 120-hour Premier TEFL course and a 30-hour Teaching Business English specialisation. The combination lets me bring genuine industry context into every lesson, not just textbook scripts.
+            On top of that, I'm certified with a 120-hour Premier TEFL course and a 30-hour Teaching Business English specialisation. This combination enables me to bring genuine industry context into every lesson.
           </p>
           <p>
             My methodology is practical and goal-oriented. I don't drill grammar rules in isolation — I prepare you for the situations you'll actually face: writing the email, leading the call, handling the difficult question from a senior director without losing the room.
