@@ -29,8 +29,8 @@ function ContactPage() {
           <div>
             <dt className="eyebrow">Email</dt>
             <dd className="font-serif text-2xl mt-1">
-              <a href="mailto:hello@englishwithmihaela.com" className="hover:text-accent underline-offset-4 hover:underline">
-                hello@englishwithmihaela.com
+              <a href="mailto:Mihaela29022000@hotmail.com" className="hover:text-accent underline-offset-4 hover:underline">
+                Mihaela29022000@hotmail.com
               </a>
             </dd>
           </div>
