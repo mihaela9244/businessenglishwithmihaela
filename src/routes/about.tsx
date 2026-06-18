@@ -27,14 +27,14 @@ function AboutPage() {
           Hello, I'm <span className="italic text-accent">Mihaela.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-xl text-muted-foreground leading-relaxed">
-          I'm a Business English tutor from Bulgaria. My lessons are fully tailored and built around your real working life — your role, your industry, the conversations you need to win this quarter.
+          {"\n"}
         </p>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 md:px-10 py-16 grid md:grid-cols-12 gap-12">
         <div className="md:col-span-7 space-y-6 text-lg leading-relaxed text-foreground/85">
           <p>
-            My background is unusual for a language tutor. I hold a BSc in International Business — taught entirely in English — and I've worked in corporate environments including asset management. That means I've sat in the meetings my students are preparing for.
+            I am a certified Business English tutor. My whole education from primary to secondary has been in the UK.&nbsp;&nbsp;I hold a BSc in International Business — taught entirely in English from the University of Economics, Varna— and I've worked in corporate environments including asset management. That means I've sat in the meetings my students are preparing for.
           </p>
           <p>
             On top of that, I'm certified with a 120-hour Premier TEFL course and a 30-hour Teaching Business English specialisation. The combination lets me bring genuine industry context into every lesson, not just textbook scripts.
