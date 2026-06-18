@@ -84,7 +84,7 @@ function Index() {
               />
               <div className="absolute inset-0 ring-1 ring-foreground/10 pointer-events-none" />
             </div>
-            <div className="relative flex-[1.5] aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted">
+            <div className="relative flex-[1] aspect-[3/4] overflow-hidden rounded-sm shadow-2xl bg-muted max-w-[200px]">
               <img
                 src={profileAsset.url}
                 alt="Mihaela Harieva — Business English tutor"
