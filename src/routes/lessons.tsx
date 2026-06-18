@@ -63,7 +63,7 @@ function LessonsPage() {
           Sample <span className="italic text-accent">lesson plans.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-xl text-muted-foreground leading-relaxed">
-          Every plan I deliver is custom-built for the student. These are real examples — drawn from my Business English specialisation — to show the level and the texture of what we'll do together.
+          Every plan I deliver is custom-built for the student. These are real examples — drawn from my Business English specialisation — to show the level of what we'll do together.
         </p>
       </section>
 
