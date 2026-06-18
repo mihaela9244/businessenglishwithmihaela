@@ -40,7 +40,7 @@ function AboutPage() {
             On top of that, I'm certified with a 120-hour Premier TEFL course and a 30-hour Teaching Business English specialisation. This combination enables me to bring genuine industry context into every lesson.
           </p>
           <p>
-            My methodology is practical and goal-oriented. I don't drill grammar rules in isolation — I prepare you for the situations you'll actually face: writing the email, leading the call, handling the difficult question from a senior director without losing the room.
+            My methodology is practical and goal-oriented. I help you grow by working on the tasks your job actually demands — writing emails, leading calls, handling tough questions from senior directors. My goal with every client is to help them grow.&nbsp;
           </p>
         </div>
         <aside className="md:col-span-5">
