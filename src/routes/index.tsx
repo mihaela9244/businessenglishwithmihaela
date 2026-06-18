@@ -50,24 +50,22 @@ function Index() {
             <dl className="mt-12 grid grid-cols-3 gap-6 max-w-md">
               <div>
                 <dt className="eyebrow">Certified</dt>
-                <dd className="font-serif text-3xl mt-1">150<span className="text-accent">h</span></dd>
-                <p className="text-xs text-muted-foreground mt-1">TEFL training</p>
+                <dd className="font-serif text-2xl mt-1">150<span className="text-accent">h</span></dd>
+                <p className="text-sm text-muted-foreground mt-1">TEFL training</p>
               </div>
               <div>
                 <dt className="eyebrow">Focus</dt>
-                <dd className="font-serif text-3xl mt-1 leading-tight">
-                  C1<span className="text-muted-foreground">–</span>C2<br />
-                  <span className="text-2xl">B1-B2</span><br />
-                  <span className="text-xl">A1-A2</span>
+                <dd className="font-serif text-2xl mt-1 leading-tight">
+                  C1–C2<br />
+                  B1–B2<br />
+                  A1–A2
                 </dd>
-                <p className="text-xs text-muted-foreground mt-1 whitespace-pre-line">
-                  {"\n"}
-                </p>
+                <p className="text-sm text-muted-foreground mt-1">Proficiency</p>
               </div>
               <div>
                 <dt className="eyebrow">Format</dt>
-                <dd className="font-serif text-3xl mt-1">1:1 VIP class</dd>
-                <p className="text-xs text-muted-foreground mt-1">Online · Google Meet</p>
+                <dd className="font-serif text-2xl mt-1">1:1 VIP class</dd>
+                <p className="text-sm text-muted-foreground mt-1">Online · Google Meet</p>
               </div>
             </dl>
           </div>
