@@ -71,7 +71,7 @@ function ContactPage() {
                 <option>B1 — Intermediate</option>
                 <option>B2 — Upper intermediate</option>
                 <option>C1 — Advanced</option>
-                <option>C2 — Mastery</option>
+                <option>C2 — Proficiency</option>
                 <option>Not sure</option>
               </select>
             </div>
